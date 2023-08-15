@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+TC">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Noto Serif TC", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button"><div class="fa fa-times"></div> Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">寵物飼料</a>
+  <a href="#health" onclick="w3_close()" class="w3-bar-item w3-button">寵物營養品</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">關於我們</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-sand w3-top">
+  <div class="w3-sand w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16 w3-hover-black"><div class="fa fa-cart-plus"></div> 購物車 </div>
+    <div class="w3-center w3-padding-16"><div class="fa fa-paw"></div> 寵物營養補給站</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <h2 id="food">飼料組合訂閱制</h2>
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+        <a href="EC_Details1.html"> 
+          <img src="https://pets-zakka.com/wp-content/uploads/2020/10/dogs-do-not-eat-feed.jpg" alt="Sandwich" style="width:100%" height="220">
+          <h3 class="w3-hover-black">【D兩週試用型】</h3>
+        </a> 
+      <p>最適合新手爸媽們或是初次嘗試飼料組合服務的飼主！</p>
+    </div>
+    <div class="w3-quarter">
+        <a href="EC_Details2.html">
+          <img src="https://static.owlting.com/market/public/items/thumbs/640x480/item_18401_dbca2bc5e317b7203747806be2cae716" alt="Steak" style="width:100%" height="220">
+          <h3 class="w3-hover-black">【C基礎型】</h3>
+        </a>
+      <p>經濟實惠又能維護寵物們的健康！</p>
+    </div>
+    <div class="w3-quarter">
+        <a href="EC_Details3.html">
+          <img src="https://www.arfarf.tw/wp-content/uploads/20181203_181203_0020-854x1024.jpg" alt="Cherries" style="width:100%" height="220">
+          <h3 class="w3-hover-black">【B進階型】</h3>
+        </a>
+      <p>為寵物們量身打造的營養方案！</p>
+    </div>
+    <div class="w3-quarter">
+        <a href="EC_Details4.html">
+          <img src="https://img.ltn.com.tw/Upload/news/600/2019/08/25/95.jpg" alt="Pasta and Wine" style="width:100%" height="220">
+          <h3 class="w3-hover-black">【A旗艦型】</h3>
+        </a>
+      <p>兼顧寵物健康和互動性的全方位服務！</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <h2 id="health">保健食品</h2>
+  <div class="w3-row-padding w3-padding-16 w3-center" id="health">
+    <div class="w3-quarter">
+        <a href="EC_Details5.html">
+          <img src="https://storage.googleapis.com/www-cw-com-tw/article/202305/article-6464957aca04a.jpg" alt="Popsicle" style="width:100%" height="195">
+          <h3 class="w3-hover-black">【寵物護眼魚油】</h3>
+        </a>
+      <p>給寵物更美好清晰的世界！</p>
+    </div>
+    <div class="w3-quarter">
+        <a href="EC_Details6.html">
+          <img src="https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2018/09/07/20180907-054706_U5965_M450333_8b03.jpg?itok=_fsJ1603" alt="Salmon" style="width:100%" height="195">
+          <h3 class="w3-hover-black">【骨骼關節護理】</h3>
+        </a>
+      <p>每一步，都是寵物和飼主相互的親密陪伴！</p>
+    </div>
+    <div class="w3-quarter">
+        <a href="EC_Details7.html">
+          <img src="https://img2.91mai.com/o2o/image/869b6d42-8e47-48ad-895b-7f896490657e.jpg" alt="Sandwich" style="width:100%" height="195">
+          <h3 class="w3-hover-black">【腸胃消化調理】</h3>
+        </a>
+      <p>健康的腸胃，是快樂生活的基石！</p>
+    </div>
+    <div class="w3-quarter">
+        <a href="EC_Details8.html">
+          <img src="https://megapx-assets.dcard.tw/images/39a04dcb-0d66-4b3f-bf58-6f4038026b73/orig.jpeg" alt="Croissant" style="width:100%" height="195">
+          <h3 class="w3-hover-black">【寵物護膚護毛】</h3>
+        </a>
+      <p>每一根毛髮，都是寵物的自信與美麗！
+      </p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>關於我們</h3><br>
+    <img src="https://www.projectclub.com.tw/images/article/pm/team.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="60%">
+    <div class="w3-padding-32">
+      <h4><b>我們的使命：為寵物帶來無限的愛與關懷！</b></h4>
+      <h6><i>我們是一個充滿熱情與創意的寵物產品行銷團隊，致力於為您的寵物提供最優質的護理和產品。我們深信寵物就是家庭的一員，值得得到最好的照顧。</i></h6></div></div>
+  <div class="w3-container w3-padding-16">  
+      <p>
+        <ul>
+          <li>團隊專業：
+            我們團隊擁有多年的寵物相關行業經驗，並具備豐富的寵物飼養知識。從寵物營養到健康護理，從品種了解到行為分析，我們將專業知識融入每一個產品和行銷策略中。
+          </li>
+          <br>
+          <li>
+            我們的價值觀：
+            <ul>
+              <li>寵愛至上： 我們堅信每一隻寵物都值得被無限寵愛和呵護。</li>
+              <li>創新改進： 我們不斷尋求創新，為寵物提供更好的生活方式。</li>
+              <li>專業信任： 我們以專業的態度贏得客戶的信任，為他們提供最佳的產品和建議。</li>
+              <li>責任共享： 我們承擔對寵物和客戶的責任，秉持共享愛心的精神。</li>
+            </ul>
+          </li>
+          <br>
+          <li>
+            我們的承諾：
+            我們不僅提供優質的產品，更提供客製化的寵物護理建議。我們致力於建立專屬寵物主人的社群，讓您和您的寵物共同享受快樂和健康的生活。    
+          </li>
+        </ul>
+        </p>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-sand w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>與我們聯繫</h3>
+      <p>無論您是寵物新手還是寵物愛好者，我們都樂意聆聽您的需求，並為您提供專業的幫助。加入我們的寵愛無限行銷團隊，一同為寵物的世界帶來更多的關愛與歡樂！</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-sand w3-third">
+      <h3>寵物健康知識分享</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="ECimages/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">〔探索寵物的營養需求〕</span><br>
+          <span>如何選擇適合寵物的飲食</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="ECimages/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">〔老年寵物護理〕</span><br>
+          <span>如何照顧年邁的寵物老朋友</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-sand w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">寵物</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">寵物健康</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">寵物飼料</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">寵物營養配方</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">寵物飼料訂閱</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">寵物營養品</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">寵物營養師</span> 
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
