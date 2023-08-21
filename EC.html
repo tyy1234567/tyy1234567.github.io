@@ -203,8 +203,13 @@ function w3_close() {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
+/* screen view事件 */ 
   gtag('config', 'G-2GNV8MRLMB');
+  gtag('event', 'screen_view', {
+  'app_name': 'myAppName',
+  'screen_name': 'Home'
+});
+/* screen view事件 END */ 
 </script>
 <!-- Google tag END -->
 <!-- 放在body最後面？ -->
